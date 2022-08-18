@@ -7,7 +7,9 @@ This is an extension that generates a code snippet for a page template. I use to
 ## Features
 
 * Generate a parent page with a toolbar with ease.
+**command**: `ppt`
 * Generate a child page with ease.
+**command**: `cpt`
 
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
