@@ -4,6 +4,13 @@
         "scope": "javascript, javascriptreact",
         "description": "Creates a parent page component.",
         "body": [
+            "import Breadcrumbs from \"components/BreadCrumps/CustomBreadCrumps.jsx\";",
+            "import Button from \"components/CustomButtons/Button.jsx\";",
+            "import PageLoadAnimation from \"components/PageLoadAnimation/PageLoaderAnimationFullScreen.jsx\";",
+            "import GridContainer from \"components/Grid/GridContainer.jsx\";",
+            "import GridItem from \"components/Grid/GridItem.jsx\";",
+            "import CustomToolbar from \"components/Toolbar/CustomToolbar.jsx\";",
+            "import React, { useState } from \"react\";\n",
             "\r\nexport default function ${fileName}Mgt(){",
             "const [currentPage, setCurrentPage] = useState(1);",
             "const [isLoading, setIsLoading] = useState(false);",
