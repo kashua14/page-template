@@ -1,31 +1,37 @@
 {
-  "name": "pagetemplate",
-  "displayName": "Page Template",
-  "description": "Simple page template for react js",
-  "version": "0.0.3",
-  "private": "true",
-  "publisher": "UgandaChristianUniversity",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kashua14/page-template"
-  },
-  "icon": "page-template.png",
-  "engines": {
-    "vscode": "^1.70.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "javascriptreact",
-        "path": "./snippets/snippets.code-snippets"
-      },
-      {
-        "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
-      }
-    ]
-  }
+	"name": "pagetemplate",
+	"displayName": "Page Template",
+	"description": "Simple page template for react js",
+	"version": "0.0.3",
+	"private": "true",
+	"publisher": "UgandaChristianUniversity",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kashua14/page-template"
+	},
+	"icon": "page-template.png",
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "javascriptreact",
+				"path": "./snippets/snippets.code-snippets"
+			},
+			{
+				"language": "javascript",
+				"path": "./snippets/snippets.code-snippets"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8656e155-dda9-4dc3-8e5b-cf838403c2a8",
+		"publisherDisplayName": "Uganda Christian University",
+		"publisherId": "a51c023d-ad3e-45fb-bace-460e47d142c2",
+		"isPreReleaseVersion": false
+	}
 }
