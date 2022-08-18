@@ -1,9 +1,9 @@
 {
-  "name": "reactpagetemplate",
+  "name": "pagetemplate",
   "displayName": "Page Template",
   "description": "Simple page template for react js",
   "version": "0.0.1",
-  "publisher": "kashua14",
+  "publisher": "UgandaChristianUniversity",
   "repository": {
     "type": "git",
     "url": "https://github.com/kashua14/page-template"
@@ -15,15 +15,6 @@
   "categories": [
     "Snippets"
   ],
-  "activationEvents": [
-    "onLanguage:javascriptreact",
-    "onLanguage:typescriptreact",
-    "onLanguage:jsx-tags",
-    "onCommand:typescript.reloadProjects",
-    "onCommand:javascript.reloadProjects",
-    "onCommand:javascript.goToProjectConfig"
-  ],
-  "main": "./out/extension",
   "contributes": {
     "snippets": [
       {
