@@ -4,6 +4,11 @@
   "description": "Simple page template for react js",
   "version": "0.0.1",
   "publisher": "kashua14",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashua14/page-template"
+  },
+  "icon": "page-template.png",
   "engines": {
     "vscode": "^1.70.0"
   },
