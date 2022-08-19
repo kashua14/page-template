@@ -23,7 +23,7 @@ This code-snippet generator doesn't have any requirements to be used. however, t
 * Breadcrumbs, Button, PageLoadAnimation, GridContainer, GridItem, and CustomToolbar components present.
 
 > Tip: For better formatting adjust the **Tab Size** in your VS-Code Settings to 2 as shown below.
-![tab-size](images/tab-size.png)
+![images/tab-size](images/tab-size.png)
 
 ## Release Notes
 
