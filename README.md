@@ -10,6 +10,8 @@ This is an extension that generates a code snippet for a page template. I use to
 **command**: `ppt`
 * Generate a child page with ease.
 **command**: `cpt`
+* Generate a child page with a table component.
+**command**: `cptt`
 
 <!-- \!\[feature X\]\(images/feature-x.png\) -->
 
@@ -22,8 +24,8 @@ This code-snippet generator doesn't have any requirements to be used. however, t
 
 ## Release Notes
 
-## [0.0.2]
+## [1.0.0]
 
-* Made the extenstion private so it can be published by npm.
-* Added commands for activation of the extention.
+* Added child component snippet with table
+* Added child component snippet.
 * Bug fixes.

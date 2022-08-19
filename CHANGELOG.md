@@ -16,3 +16,9 @@ All notable changes to the `pagetemplate` extension will be documented in this f
 
 - Formatting of the code snipplet.
 - Bug fixes.
+
+## [1.0.0]
+
+- Added child component snippet with table
+- Added child component snippet.
+- Bug fixes.
