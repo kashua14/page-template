@@ -6,14 +6,14 @@ This is an extension that generates a code snippet for a page template. I use to
 
 ## Features
 
-* Generate a parent page with a toolbar with ease.
-**command**: `ppt`
-* Generate a child page with ease.
-**command**: `cpt`
-* Generate a child page with a table component.
-**command**: `cptt`
+After creating a new file, execute the following commands depending on the boiler-plate you wnat.
 
-<!-- \!\[feature X\]\(images/feature-x.png\) -->
+* To generate a parent page with a toolbar use;
+**command**: `ppt`
+* To generate a child page use;
+**command**: `cpt`
+* to generate a child page with a table component use;
+**command**: `cptt`
 
 ## Requirements
 
@@ -21,6 +21,9 @@ This code-snippet generator doesn't have any requirements to be used. however, t
 
 * React package installed (any version)
 * Breadcrumbs, Button, PageLoadAnimation, GridContainer, GridItem, and CustomToolbar components present.
+
+> Tip: For better formatting adjust the **Tab Size** in your VS-Code Settings to 2 as shown below.
+![tab-size](images/tab-size.png)
 
 ## Release Notes
 

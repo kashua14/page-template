@@ -141,7 +141,6 @@
             "import WorkIcon from \"@material-ui/icons/Domain\";",
             "import FilterList from \"@material-ui/icons/FilterList\";",
             "\r\nexport default function ${childPageName}(){",
-            "\tconst defaultExpandedGrouping = [];",
             "\tconst defaultHiddenColumnNames = [];",
             "\tconst grouping = [{ columnName: \"${column1}\" }];",
             "\tconst totalSummaryItems = [{ columnName: \"${column1}\", type: \"count\" }];",
