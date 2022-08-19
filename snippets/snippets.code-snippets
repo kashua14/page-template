@@ -99,5 +99,36 @@
             "\t);",
             "};"
         ]
+    },
+    "Child Page Template": {
+        "prefix": "cpt",
+        "scope": "javascript, javascriptreact",
+        "description": "Creates a child page component.",
+        "body": [
+            "import React, { useState } from \"react\";\n",
+            "import Alert from \"@material-ui/lab/Alert\";",
+            "import WorkIcon from \"@material-ui/icons/Domain\";",
+            "import FilterList from \"@material-ui/icons/FilterList\";",
+            "\r\nexport default function ${childPageName}(){",
+            "\n\treturn (",
+            "\t\t<GridContainer justify=\"center\">",
+            "\t\t\t<GridItem xs={12} sm={12} md={12}>",
+            "\t\t\t\t<Card>",
+            "\t\t\t\t\t<CardHeader",
+            "\t\t\t\t\t\ticon={<WorkIcon fontSize=\"large\" style={{ color: \"white\" }} />}",
+            "\t\t\t\t\t\ttitle={${title}}",
+            "\t\t\t\t\t/>\r\n",
+            "\t\t\t\t\t<Alert icon={<FilterList fontSize=\"inherit\" />} severity=\"warning\">",
+            "\t\t\t\t\t\t${subtitle}",
+            "\t\t\t\t\t</Alert>\r\n",
+            "\t\t\t\t\t<CardBody>",
+            "\t\t\t\t\t\t${0}",
+            "\t\t\t\t\t</CardBody>",
+            "\t\t\t\t</Card>",
+            "\t\t\t</GridItem>",
+            "\t\t</GridContainer>",
+            "\t);",
+            "};"
+        ]
     }
 }
