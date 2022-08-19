@@ -5,6 +5,8 @@
         "description": "Creates a parent page component.",
         "body": [
             "import React, { useState } from \"react\";\n",
+            "import WorkIcon from \"@material-ui/icons/Domain\";",
+            "${0}",
             "\r\nexport default function ${fileName}Mgt(){",
             "\tconst [currentPage, setCurrentPage] = useState(1);",
             "\tconst [isLoading, setIsLoading] = useState(false);",
@@ -43,7 +45,7 @@
             "\n\t// BreadCrumps",
             "\tconst BreadCrumpsData = [",
             "\t\t<div>",
-            "\t\t\t<TrackerIcon ",
+            "\t\t\t<WorkIcon ",
             "\t\t\t\tstyle={{ marginRight: \"5px\", width: 20, height: 20, marginTop: -3 }}",
             "\t\t\t/>",
             "\t\t\t${toolbarTitle}",
@@ -75,7 +77,6 @@
             "\n\treturn (",
             "\t\t<div id=\"${fileName}-mgt\">",
             "\t\t\t<GridContainer justify=\"center\">",
-            "\t\t\t\t<PageLoadAnimation isLoading={isLoading} />",
             "\t\t\t\t<GridItem xs={12} sm={12} md={12}>",
             "\t\t\t\t\t<Breadcrumbs breadCrumpsData={BreadCrumpsData} />",
             "\t\t\t\t\t<CustomToolbar",
@@ -192,5 +193,35 @@
             "\t);",
             "};"
         ]
-    }
+    },
+    "Parent Core Component imports": {
+        "prefix": "pci",
+        "scope": "javascript, javascriptreact",
+        "description": "Generates parent core component imports.",
+        "body": [
+            "\r\n// Core Components",
+            "import GridItem from \"components/Grid/GridItem.jsx\";",
+            "import Button from \"components/CustomButtons/Button.jsx\";",
+            "import GridContainer from \"components/Grid/GridContainer.jsx\";",
+            "import Breadcrumbs from \"components/BreadCrumps/CustomBreadCrumps.jsx\";",
+            "import PageLoadAnimation from \"components/PageLoadAnimation/PageLoaderAnimationFullScreen.jsx\";",
+            "import CustomToolbar from \"components/Toolbar/CustomToolbar.jsx\";",
+        ]
+    },
+    "Child Core Component imports": {
+        "prefix": "cci",
+        "scope": "javascript, javascriptreact",
+        "description": "Generates child core component imports.",
+        "body": [
+            "\r\n// Core Components",
+            "import Card from \"components/Card/Card.jsx\";",
+            "import CardBody from \"components/Card/CardBody.jsx\";",
+            "import GridItem from \"components/Grid/GridItem.jsx\";",
+            "import NoDataCard from \"components/FallBacks/NoDataCard\";",
+            "import Button from \"components/CustomButtons/Button.jsx\";",
+            "import TableExport from \"components/Table/TableExport.jsx\";",
+            "import CardHeader from \"components/Card/CustomCardHeader.jsx\";",
+            "import GridContainer from \"components/Grid/GridContainer.jsx\";",
+        ]
+    },
 }
