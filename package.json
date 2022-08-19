@@ -2,7 +2,7 @@
 	"name": "kashuapagetemplate",
 	"displayName": "Page Template",
 	"description": "Simple page template for react js",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"private": "true",
 	"publisher": "UgandaChristianUniversity",
 	"repository": {
@@ -10,7 +10,9 @@
 		"url": "https://github.com/kashua14/page-template"
 	},
 	"keywords": [
-		"kashua14", "ucu", "page template"
+		"kashua14",
+		"ucu",
+		"page template"
 	],
 	"icon": "page-template.png",
 	"engines": {
