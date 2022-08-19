@@ -27,8 +27,7 @@ This code-snippet generator doesn't have any requirements to be used. however, t
 
 ## Release Notes
 
-## [1.0.0]
+## [1.1.3]
 
-* Added child component snippet with table
-* Added child component snippet.
+* Formatting/indentation of the code.
 * Bug fixes.
