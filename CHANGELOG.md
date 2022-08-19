@@ -11,3 +11,8 @@ All notable changes to the `pagetemplate` extension will be documented in this f
 - Made the extenstion private so it can be published by npm.
 - Added commands for activation of the extention.
 - Bug fixes.
+
+## [0.1.2]
+
+- Formatting of the code snipplet.
+- Bug fixes.
