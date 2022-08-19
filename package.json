@@ -9,6 +9,9 @@
 		"type": "git",
 		"url": "https://github.com/kashua14/page-template"
 	},
+	"keywords": [
+		"kashua14", "ucu", "page template"
+	],
 	"icon": "page-template.png",
 	"engines": {
 		"vscode": "^1.70.0"
