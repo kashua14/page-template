@@ -2,7 +2,7 @@
 	"name": "kashuapagetemplate",
 	"displayName": "Page Template",
 	"description": "Simple page template for react js",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"private": "true",
 	"publisher": "UgandaChristianUniversity",
 	"repository": {
