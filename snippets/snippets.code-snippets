@@ -182,7 +182,7 @@
             "\t\t\t\t\t\t\t\tfileName={\"${title}\"}",
             "\t\t\t\t\t\t\t/>",
             "\t\t\t\t\t\t) : (",
-            "\t\t\t\t\t\t\t<NoDatacard title=\"No data found.\" />",
+            "\t\t\t\t\t\t\t<NoDataCard title=\"No data found.\" />",
             "\t\t\t\t\t\t)}",
             "\t\t\t\t\t</CardBody>",
             "\t\t\t\t</Card>",
